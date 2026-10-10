@@ -52,5 +52,5 @@ void appendInt(an_actual_array *array, int item)
 }
 
 int getItem(an_actual_array *array, int index) {
-    
+    // git credential test 2
 }
