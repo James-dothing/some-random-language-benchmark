@@ -29,6 +29,17 @@ int main()
 
     debugArray(y);
 
+    for (int i=0; i<10;i++)
+    {
+        an_actual_array* v = newArray();
+        for (int i=0; i<10;i++)
+        {
+            appendInt(v, 1);
+        }
+    }
+
+    freeEveryArray();
+
     freeEveryArray();
 
     printf("i exited the program without any issue or error whatso ever");
